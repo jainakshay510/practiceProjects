@@ -1,0 +1,70 @@
+package com.tutorial.employeedemo;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.boot.Metadata;
+import org.hibernate.boot.MetadataSources;
+import org.hibernate.boot.registry.StandardServiceRegistry;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+
+import com.tutorial.employeedemo.entity.Department;
+import com.tutorial.employeedemo.entity.Employee;
+import com.tutorial.employeedemo.entity.Laptop;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        StandardServiceRegistry serviceRegistryBuilder=new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
+        Metadata metaData=new MetadataSources(serviceRegistryBuilder).getMetadataBuilder().build();
+        
+        SessionFactory sessionfactory=metaData.getSessionFactoryBuilder().build();
+        
+        Session session=sessionfactory.openSession();
+        
+        Transaction t=session.beginTransaction();
+        
+        Employee e=new Employee();
+        e.setEmpName("akshay");
+        e.setId(1);
+        e.setSalary(200L);
+//        Department dept1=new Department();
+//        dept1.setDeptId("D101");
+//        dept1.setDeptName("CTO");
+//        Department dept2=new Department();
+//        dept2.setDeptId("D102");
+//        dept2.setDeptName("HI-TECH");
+//        e.getListOfDepartment().add(dept1);
+//        e.getListOfDepartment().add(dept2);
+        
+        Laptop lappy1=new Laptop();
+        lappy1.setLaptopName("Lenovo-Akshay");
+        
+        Laptop lappy2=new Laptop();
+        lappy2.setLaptopName("HP-Akshay");
+        
+        e.getLaptopList().add(lappy1);
+        e.getLaptopList().add(lappy2);
+        session.save(e);
+        session.save(lappy1);
+        session.save(lappy2);
+        session.getTransaction().commit();
+        
+        session.close();
+        
+        session=sessionfactory.openSession();
+        Employee e1=session.get(Employee.class,1);
+        //System.out.println(e1.getLaptop().getLaptopName());
+        session.close();
+        System.out.println(e1.getLaptop().getLaptopName());
+        //System.out.println(e1.getListOfDepartment().size());
+        sessionfactory.close();
+        
+        
+    }
+}

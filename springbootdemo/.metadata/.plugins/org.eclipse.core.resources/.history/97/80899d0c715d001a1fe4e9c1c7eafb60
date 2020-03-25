@@ -1,0 +1,5 @@
+package com.tutorial.springsecurityjdbc.controller;
+
+public class HomeResourceController {
+
+}

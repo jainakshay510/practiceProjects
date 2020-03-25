@@ -1,0 +1,5 @@
+package com.tutorial.springsecurityjwt.filter;
+
+public class JwtFilter {
+
+}

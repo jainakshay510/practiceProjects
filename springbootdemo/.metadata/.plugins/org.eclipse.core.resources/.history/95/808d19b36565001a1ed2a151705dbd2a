@@ -1,0 +1,5 @@
+package com.tutorial.springsecurityjwt.security.config;
+
+public class SecurityConfig {
+
+}

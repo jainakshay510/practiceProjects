@@ -1,0 +1,18 @@
+package com.tutorial.employeedemo;
+
+import org.hibernate.boot.Metadata;
+import org.hibernate.boot.MetadataSources;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        StandardServiceRegistry serviceRegistryBuilder=new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
+        Metadata metaData=new MetadataSources(serviceRegistryBuilder).getMetadataBuilder().build();
+    }
+}

@@ -1,0 +1,14 @@
+#Port where  spring cloud config server needs to run
+server.port = 51000
+
+#adding context path
+server.servlet.context-path=/config
+
+# spring.profiles.active and spring.cloud.config.server.native.search-locations for     # connecting to local file system for configuration.
+#################################################################
+spring.profiles.active=native
+
+spring.cloud.config.server.native.search-locations=file:///C:/Users/M1050360/Desktop/cordapoc/corda-harvest-use-case/clients/src/main/resources
+
+#Server would return a HTTP 404 status, if the application is not found.By default, this flag is set to true.
+spring.cloud.config.server.accept-empty=false

@@ -1,0 +1,17 @@
+package multithreadingexample;
+
+public class ProducerConsumerUsingWaitNotify {
+	
+	
+	private Object lock=new Object();
+	
+	
+	public void producer() {
+		
+	}
+	
+	public void consumer() {
+		
+	}
+
+}

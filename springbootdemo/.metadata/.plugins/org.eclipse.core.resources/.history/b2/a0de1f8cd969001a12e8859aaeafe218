@@ -1,0 +1,40 @@
+package multithreadingexample;
+
+import java.util.Scanner;
+
+public class ProducerConsumerUsingWaitNotify {
+	
+	
+	private Object lock=new Object();
+	
+	
+	public void producer() throws InterruptedException {
+		
+		while(true) {
+			synchronized (lock) {
+				System.out.println("Producer thraed running....");
+				lock.wait();
+				System.out.println("resumed");
+			}
+		}
+	}
+	
+	public void consumer() throws InterruptedException {
+		
+		Scanner scanner=new Scanner(System.in);
+		//just used so that producer thread get executed first
+		Thread.sleep(100);
+		
+		while(true) {
+			synchronized (lock) {
+				System.out.println("Waiting for return key..");
+				scanner.nextLine();
+				System.out.println("Return key pressed");
+				lock.notify();
+				
+			}
+		}
+		
+	}
+
+}

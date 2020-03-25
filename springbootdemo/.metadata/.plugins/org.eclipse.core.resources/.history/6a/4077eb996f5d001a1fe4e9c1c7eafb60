@@ -1,0 +1,5 @@
+package com.tutorial.springsecurityjdbc.security.config;
+
+public class SecurityConfig {
+
+}

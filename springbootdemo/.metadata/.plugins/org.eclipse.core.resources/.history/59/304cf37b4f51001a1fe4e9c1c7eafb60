@@ -1,0 +1,5 @@
+package com.tutorial.employeedemo.entity;
+
+public class WindowsLaptop extends Laptop {
+
+}

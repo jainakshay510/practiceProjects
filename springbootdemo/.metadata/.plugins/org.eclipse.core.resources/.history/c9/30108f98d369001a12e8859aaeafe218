@@ -1,0 +1,31 @@
+package multithreadingexample;
+
+public class ProducerConsumerUsingWaitNotify {
+	
+	
+	private Object lock=new Object();
+	
+	
+	public void producer() throws InterruptedException {
+		
+		while(true) {
+			synchronized (lock) {
+				System.out.println("Producer thraed running....");
+				lock.wait();
+			}
+		}
+	}
+	
+	public void consumer() throws InterruptedException {
+		//just used so that producer thread get executed first
+		Thread.sleep(100);
+		
+		while(true) {
+			synchronized (lock) {
+				
+			}
+		}
+		
+	}
+
+}

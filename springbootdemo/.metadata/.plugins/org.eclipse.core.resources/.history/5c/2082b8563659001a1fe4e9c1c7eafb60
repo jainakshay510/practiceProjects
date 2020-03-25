@@ -1,0 +1,49 @@
+package multithreadingexample;
+
+public class MultiThreadingExample {
+
+	public static void main() {
+		
+		
+		
+		
+		
+	}
+}
+
+class PrintOddEvenUsingThreads{
+	
+	private boolean odd=true;
+	private int count=1;
+	
+	public void printOdd(int max) {
+		
+		synchronized (this) {
+			
+			while(count<max) {
+				System.out.println("checking odd loop");
+				while(!odd) {
+					
+					try {
+						System.out.println("odd waiting");
+						wait();
+						System.out.println("notified odd");
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+				
+				System.out.println("Odd Thread "+count);
+				count++;
+				odd=false;
+				notify();
+			}
+			
+		}
+		
+		
+	}
+	
+	
+}

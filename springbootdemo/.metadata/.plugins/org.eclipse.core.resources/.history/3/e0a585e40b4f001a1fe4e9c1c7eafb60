@@ -1,0 +1,151 @@
+package com.tutorial.studentdemo.config;
+
+import javax.persistence.EntityManagerFactory;
+
+import org.springframework.batch.core.Job;
+import org.springframework.batch.core.Step;
+import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
+import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
+import org.springframework.batch.core.launch.support.RunIdIncrementer;
+import org.springframework.batch.item.ItemProcessor;
+import org.springframework.batch.item.ItemReader;
+import org.springframework.batch.item.ItemWriter;
+import org.springframework.batch.item.database.JdbcCursorItemReader;
+import org.springframework.batch.item.database.JpaPagingItemReader;
+import org.springframework.batch.item.file.FlatFileItemReader;
+import org.springframework.batch.item.file.FlatFileItemWriter;
+import org.springframework.batch.item.file.LineMapper;
+import org.springframework.batch.item.file.mapping.BeanWrapperFieldSetMapper;
+import org.springframework.batch.item.file.mapping.DefaultLineMapper;
+import org.springframework.batch.item.file.transform.BeanWrapperFieldExtractor;
+import org.springframework.batch.item.file.transform.DelimitedLineAggregator;
+import org.springframework.batch.item.file.transform.DelimitedLineTokenizer;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+import com.tutorial.studentdemo.batch.util.JpaQueryProviderImpl;
+import com.tutorial.studentdemo.entity.StudentEntity;
+
+
+
+@Configuration
+public class BatchConfig {
+
+	@Autowired
+	private JobBuilderFactory jobBuilderfactory;
+	
+	@Autowired
+	private StepBuilderFactory stepbuilderfactory;
+	
+//	@Autowired
+//	private Step step1;
+	
+	
+	@Autowired
+	private ItemProcessor<StudentEntity, StudentEntity> itemProcessor;
+	
+	@Bean(name="CsvToDatabase")
+	public Job job() {
+		
+		return jobBuilderfactory.get("students-load")
+		.incrementer(new RunIdIncrementer())
+		.start(step())
+		.build();
+		
+	}
+	
+	
+	@Autowired
+	private ItemWriter<StudentEntity> itemWriter;
+	
+	@Bean
+	public Step step() {
+		return stepbuilderfactory.get("students-file-load")
+				.<StudentEntity,StudentEntity>chunk(2)
+				.reader(fileItemReader())
+				.processor(itemProcessor).
+				writer(itemWriter).
+				build();
+	}
+	
+	@Bean
+	public FlatFileItemReader<StudentEntity> fileItemReader(){
+		FlatFileItemReader<StudentEntity> flatFileItemReader=new FlatFileItemReader<>();
+		flatFileItemReader.setResource(new ClassPathResource("student.csv"));
+		flatFileItemReader.setName("csv-reader");
+		flatFileItemReader.setLinesToSkip(1);
+		flatFileItemReader.setLineMapper(lineMapper());
+		return flatFileItemReader;
+	}
+
+
+	@Bean
+	public LineMapper<StudentEntity> lineMapper() {
+		DefaultLineMapper<StudentEntity> defaultLineMapper=new DefaultLineMapper<>();
+		DelimitedLineTokenizer lineTokenizer=new DelimitedLineTokenizer();
+		lineTokenizer.setDelimiter(",");
+		lineTokenizer.setStrict(false);
+		lineTokenizer.setNames(new String[] {"id","age","email","name","standard"});
+		defaultLineMapper.setLineTokenizer(lineTokenizer);
+		
+		//this is provided by spring boot to convert map the value we defined in tokenizer to the variables in the pojo class
+		BeanWrapperFieldSetMapper<StudentEntity> fieldSetMapper=new BeanWrapperFieldSetMapper<>();
+		fieldSetMapper.setTargetType(StudentEntity.class);
+		defaultLineMapper.setFieldSetMapper(fieldSetMapper);
+		return defaultLineMapper;
+	}
+	
+	@Autowired
+	private EntityManagerFactory entityManagerFactory;
+	
+	
+	
+	@Bean
+	public ItemReader<StudentEntity> databaseReader() throws Exception{
+		
+		JpaPagingItemReader<StudentEntity> databaseReader=new JpaPagingItemReader();
+		JpaQueryProviderImpl<StudentEntity> jpaQueryProvider=new JpaQueryProviderImpl<>();
+		jpaQueryProvider.setEntityClass(StudentEntity.class);
+		jpaQueryProvider.setQuery("StudentEntity.findAll");
+		databaseReader.setEntityManagerFactory(entityManagerFactory);
+		databaseReader.setQueryProvider(jpaQueryProvider);
+		
+		
+		 databaseReader.setPageSize(1000);
+		 databaseReader.afterPropertiesSet();
+		 return databaseReader;
+	}
+	
+	@Bean
+	public FlatFileItemWriter<StudentEntity> csvWriter(){
+		FlatFileItemWriter<StudentEntity> csvWriter=new FlatFileItemWriter<>();
+		
+		csvWriter.setResource(new ClassPathResource("targetStudent.csv"));
+		csvWriter.setAppendAllowed(true);
+		
+		DelimitedLineAggregator<StudentEntity> lineAggregator=new DelimitedLineAggregator<>();
+		
+		lineAggregator.setDelimiter(":");
+		
+		BeanWrapperFieldExtractor<StudentEntity> beanFieldExtractor=new BeanWrapperFieldExtractor<>();
+		beanFieldExtractor.setNames(new String[] {"id","age","email","name","standard"});
+		lineAggregator.setFieldExtractor(beanFieldExtractor);
+		
+		csvWriter.setLineAggregator(lineAggregator);
+		
+		return csvWriter;
+	}
+	
+	@Bean
+	public Step step2() throws Exception {
+		return stepbuilderfactory.get("student-databse-to-csv").<StudentEntity,StudentEntity>chunk(2).reader(databaseReader()).processor(itemProcessor).writer(csvWriter()).build();
+	}
+	@Bean(name="databseToCsv")
+	public Job jobdatabasetocsv() throws Exception {
+		return jobBuilderfactory.get("student-to-csv").incrementer(new RunIdIncrementer()).start(step2()).build();
+	}
+}

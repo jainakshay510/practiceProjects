@@ -1,0 +1,47 @@
+package com.tutorial.employeedemo;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.boot.Metadata;
+import org.hibernate.boot.MetadataSources;
+import org.hibernate.boot.registry.StandardServiceRegistry;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+
+import com.tutorial.employeedemo.entity.Department;
+import com.tutorial.employeedemo.entity.Employee;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        StandardServiceRegistry serviceRegistryBuilder=new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
+        Metadata metaData=new MetadataSources(serviceRegistryBuilder).getMetadataBuilder().build();
+        
+        SessionFactory sessionfactory=metaData.getSessionFactoryBuilder().build();
+        
+        Session session=sessionfactory.openSession();
+        
+        Transaction t=session.beginTransaction();
+        
+        Employee e=new Employee();
+        e.setEmpName("akshay");
+        e.setId(1);
+        e.setSalary(200L);
+        Department dept=new Department();
+        dept.setDeptId("D101");
+        dept.setDeptName("CTO");
+        e.setDepartment(dept);
+        
+        session.save(e);
+        
+        session.getTransaction().commit();
+        
+        session.close();
+        
+    }
+}

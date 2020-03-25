@@ -1,0 +1,5 @@
+package com.tutorial.studentdemo.batch.util;
+
+public class JpaQueryProviderImpl {
+
+}

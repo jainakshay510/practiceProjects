@@ -1,0 +1,29 @@
+package multithreadingexample;
+
+public class BasicThreadProgram {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}
+
+
+class MyCustomThread implements Runnable{
+
+	private String threadName;
+	
+	public MyCustomThread(String threaName) {
+		this.threadName=threaName;
+	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+	
+}

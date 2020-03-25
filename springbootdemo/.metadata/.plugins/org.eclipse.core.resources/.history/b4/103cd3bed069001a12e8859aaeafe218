@@ -1,0 +1,44 @@
+package multithreadingexample;
+
+public class BasicThreadProgram {
+	
+	public static void main(String[] args) {
+		
+		
+		int n = 8; // Number of threads 
+        for (int i=0; i<n; i++) 
+        { 
+            Thread object = new Thread(new MyCustomThread("Akshhay+Thread")); 
+            object.start(); 
+        } 
+		
+	}
+
+}
+
+
+class MyCustomThread implements Runnable{
+
+	private String threadName;
+	
+	public MyCustomThread(String threaName) {
+		this.threadName=threaName;
+	}
+	
+	
+	@Override
+	public void run() {
+
+		try {
+			System.out.println("In thread "+threadName+Thread.currentThread().getId());
+		}
+		catch(Exception e) {
+			System.out.println("Exception"+e.getMessage());
+		}
+			
+	}
+	
+	
+	
+	
+}

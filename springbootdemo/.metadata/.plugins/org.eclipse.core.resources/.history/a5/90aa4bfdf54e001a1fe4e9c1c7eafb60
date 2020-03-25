@@ -1,0 +1,72 @@
+package com.mindtree.dirtyhibernate;
+
+
+import java.util.List;
+
+import org.hibernate.Session;    
+import org.hibernate.SessionFactory;    
+import org.hibernate.Transaction;  
+import org.hibernate.boot.Metadata;  
+import org.hibernate.boot.MetadataSources;  
+import org.hibernate.boot.registry.StandardServiceRegistry;  
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+
+import com.mindtree.dirtyhibernate.entity.User;  
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	
+        System.out.println( "Hello World!" );
+        
+        StandardServiceRegistry ssr = new StandardServiceRegistryBuilder().configure("hibernatecfg.xml").build();  
+        
+        Metadata meta = new MetadataSources(ssr).getMetadataBuilder().build();  
+       
+     SessionFactory factory = meta.getSessionFactoryBuilder().build();  
+     Session session = factory.openSession();  
+     Transaction t = session.beginTransaction();   
+                 
+         User e1=new User("Akshay",27);    
+        
+         
+             
+         session.save(e1);  
+         t.commit();  
+         System.out.println("successfully saved");    
+          
+         session.close(); 
+         
+         //SessionFactory factory1 = meta.getSessionFactoryBuilder().build();  
+         Session session1 = factory.openSession(); 
+         Session session2=factory.openSession();
+         Transaction t2=session2.beginTransaction();
+         Transaction t1 = session1.beginTransaction();
+         
+         int i=10___0;
+         
+         System.out.println(i);
+         User u=session1.get(User.class,1);
+         
+         u.setName("Rohan");
+         
+         //session1.save(u);
+         session1.flush();
+         
+         List<User> userlist=session2.createQuery("from User").list();
+         for (User u1 :userlist) {
+        	 System.out.println(u1.getName());
+         }
+         
+         //t1.commit();
+         factory.close();
+         //session1.close();
+         
+         
+         
+    }
+}

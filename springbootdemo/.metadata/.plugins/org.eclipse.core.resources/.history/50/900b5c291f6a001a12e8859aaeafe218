@@ -1,0 +1,25 @@
+package multithreadingexample;
+
+import java.util.concurrent.CountDownLatch;
+
+public class CountDownLatchMain {
+	
+	
+	
+	public static void main(String[] args) {
+		
+		 CountDownLatch countLatch=new CountDownLatch(3);
+		
+	}
+
+}
+
+class Processor implements Runnable{
+
+	@Override
+	public void run() {
+		
+		
+	}
+	
+}

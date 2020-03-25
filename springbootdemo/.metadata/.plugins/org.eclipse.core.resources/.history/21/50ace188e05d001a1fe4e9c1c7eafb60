@@ -1,0 +1,5 @@
+package com.tutorial.springsecurityldap.controller;
+
+public class HomeResourceController {
+
+}

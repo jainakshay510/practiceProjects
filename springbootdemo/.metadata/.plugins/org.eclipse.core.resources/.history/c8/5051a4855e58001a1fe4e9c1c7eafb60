@@ -1,0 +1,31 @@
+
+public class CountFrequency {
+	
+	public static void main(String[] args) {
+		
+		String str="akshay";
+		countFrequency(str);
+		
+	}
+	
+	
+	public static void countFrequency(String s) {
+		
+		char[] ch=s.toCharArray();
+		
+		int[] freq=new int[26];
+		
+		for(int i=0;i<s.length();i++) {
+			freq[s.charAt(i)-'a']+=1;
+			int c=s.charAt(i);
+			System.out.print(c+" ");
+			
+		}
+		for(int f:freq) {
+			System.out.print(f+" ");
+		}
+		
+		
+	}
+
+}

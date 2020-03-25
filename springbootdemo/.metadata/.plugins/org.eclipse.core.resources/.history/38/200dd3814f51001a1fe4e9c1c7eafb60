@@ -1,0 +1,13 @@
+package com.tutorial.employeedemo.entity;
+
+import javax.persistence.Entity;
+
+import lombok.Data;
+
+@Entity
+@Data
+public class WindowsLaptop extends Laptop {
+	
+	private String os;
+
+}

@@ -1,0 +1,12 @@
+package multithreadingexample;
+
+import java.util.concurrent.CountDownLatch;
+
+public class CountDownLatchMain {
+	
+	private CountDownLatch countLatch=new CountDownLatch(3);
+	public static void main(String[] args) {
+		
+	}
+
+}

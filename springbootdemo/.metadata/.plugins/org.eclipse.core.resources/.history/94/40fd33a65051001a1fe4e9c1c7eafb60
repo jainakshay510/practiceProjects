@@ -1,0 +1,9 @@
+package com.tutorial.employeedemo.entity;
+
+import javax.persistence.Entity;
+
+@Entity
+public class MacLaptop extends Laptop {
+
+	private String commandButton;
+}

@@ -1,0 +1,30 @@
+package com.tutorial.employeedemo.entity;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+
+import lombok.Data;
+
+@Entity
+@Data
+public class Laptop {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private int laptopId;
+	
+	private String laptopName;
+	
+//	@ManyToOne
+//	@JoinColumn(name="EMPLOYEE_ID")
+//	@ManyToMany(mappedBy="laptopList")
+//	private Collection<Employee> employeeList=new ArrayList<>();
+}

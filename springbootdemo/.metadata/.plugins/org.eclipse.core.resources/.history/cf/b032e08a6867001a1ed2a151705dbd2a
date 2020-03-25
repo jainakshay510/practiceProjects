@@ -1,0 +1,32 @@
+
+public class QuickSort {
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	
+	public void  quickSort(int[] a,int low,int high) {
+		
+		
+		
+		while(start<last) {
+			
+			int pivot=partition(a, low, high);
+			
+			quickSort(a,low,pivot-1);
+			
+			quickSort(a, pivot+1,high);
+			
+			
+		}
+	}
+	
+	public int partition(int[] a,int start,int last) {
+		
+		
+		
+		return 0;
+	}
+
+}

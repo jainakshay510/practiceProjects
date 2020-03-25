@@ -1,0 +1,14 @@
+
+#properties use for local ldap config
+
+#this property is to tell at which port the ldap should run
+
+spring.ldap.embedded.port=8389
+
+#this property use for having the file which will contain the data to be used
+spring.ldap.embedded.ldif=classpath:ldap-data.ldif
+
+#this is what tell embedded ldap what is the root node should be
+
+spring.ldap.embedded.base-dn=dc=springframework,dc=org
+

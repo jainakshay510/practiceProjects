@@ -1,0 +1,57 @@
+
+import java.lang.*;
+import java.util.*;
+
+public class FindXInAgivenEquation {
+
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	//str is an equation like "2 + 3x = 8"
+	
+	
+	public String findX(String str) {
+		
+		List<String> s=Arrays.asList(str.split(" "));
+		String t=s.stream().filter(i->i.contains("x")).findAny().get();
+		if(s.indexOf(t)>s.indexOf("=")) {
+			
+			int a=Integer.valueOf(s.get(0));
+			int b=Integer.valueOf(s.get(2));
+			String sign=s.get(1);
+			
+			int result=calculate(a,b,sign);
+			System.out.println(result);
+			
+		}
+		else {
+			
+		}
+		return str;
+	}
+	
+	public int calculate(int a ,int b,String sign) {
+		
+		if(sign.equals("+")) {
+			
+			return a+b;
+			
+		}
+		else if(sign.equals("-")) {
+			
+			return a-b;
+		}
+		else if(sign.equals("*")) {
+			return a*b;
+		}
+		else if(sign.equals("/")) {
+			return a/b;
+		}
+		return 0;
+	}
+}
+
+
+

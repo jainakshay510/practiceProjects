@@ -1,0 +1,117 @@
+import java.util.stream.Stream;
+
+public class TreeTraversal {
+
+	public static void main(String[] args) {
+		
+		BinaryTree tree=new BinaryTree();
+		
+		tree.root=new Node(1);
+		tree.root.left=new Node(2);
+		tree.root.right=new Node(3);
+		tree.root.left.left=new Node(4);
+		tree.root.left.right=new Node(5);
+		
+		tree.printInOrder();
+		System.out.println();
+		tree.printPostOrder();
+		System.out.println();
+		tree.printPreOrder();
+		
+		System.out.println(Stream.of("green","yellow","blue").max((s1,s2)->s1.compareTo(s2)).filter(s->s.endsWith("n")).orElse("yellow"));
+		System.out.println(Element.HEL.toString()+Element.HEL.getChemsymbol()+Element.HEL.getNature()+Element.HEL.getA());
+	}
+}
+
+enum Element{
+	HEL("he","gas","ak"),
+	MAG("mg","solid","an");
+	
+	private String chemsymbol;
+	private String a;
+	private String nature;
+	
+	private Element(String chemsymbol, String nature,String a) {
+		this.chemsymbol = chemsymbol;
+		this.a=a;
+		this.nature = nature;
+	}
+	public String getChemsymbol() {
+		return chemsymbol;
+	}
+	public String getNature() {
+		return nature;
+	}
+	
+	public String getA() {
+		return a;
+	}
+	
+	
+}
+
+class BinaryTree{
+	
+	Node root;
+	public BinaryTree() {
+		root=null;
+	}
+	
+	private void printPostOrder(Node node) {
+		
+		if(node==null)
+			return;
+		
+		printPostOrder(node.left);
+		
+		printPostOrder(node.right);
+		
+		System.out.print(node.key+"->");
+		
+		
+	}
+	
+	private void printInOrder(Node node) {
+		if(node==null)
+			return;
+		
+		printInOrder(node.left);
+		
+		System.out.print(node.key+"->");
+		
+		printInOrder(node.right);
+		
+		
+	}
+	
+	private void printPreOrder(Node node) {
+		
+		if(node==null)
+			return;
+		System.out.print(node.key+"->");
+		
+		printPreOrder(node.left);
+		
+		printPreOrder(node.right);
+		
+	}
+	
+	void printPostOrder()  {     printPostOrder(root);  } 
+    void printInOrder()    {     printInOrder(root);   } 
+    void printPreOrder()   {     printPreOrder(root);  } 
+}
+
+class Node{
+	  Node left;
+	  Node right;
+	  int key;
+	public Node(int key) {
+		
+		this.left = null;
+		this.right = null;
+		this.key = key;
+	}
+	  
+	
+	  
+}

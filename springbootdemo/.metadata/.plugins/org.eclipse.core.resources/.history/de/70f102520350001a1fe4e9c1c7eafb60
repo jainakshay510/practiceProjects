@@ -1,0 +1,33 @@
+package com.tutorial.employeedemo.entity;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.persistence.Column;
+import javax.persistence.ElementCollection;
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Data
+@Entity
+@Table(name="Employee")
+public class Employee {
+
+	@Id
+	private int id;
+	
+	@Column(name="empName")
+	private String empName;
+	
+	@Column(name="department")
+	@ElementCollection
+	private Set<Department> listOfDepartment=new HashSet();
+	
+	@Column(name="salary")
+	private Long salary;
+	
+}

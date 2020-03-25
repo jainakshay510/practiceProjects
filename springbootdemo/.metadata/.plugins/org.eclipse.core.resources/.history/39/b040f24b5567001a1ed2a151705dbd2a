@@ -1,0 +1,16 @@
+
+public class TargetAchieveByFlippingBits {
+
+	public static void main(String[] args) {
+		
+		String target="1011";
+		StringBuffer s=new StringBuffer("");
+		
+		for(int i=0;i<target.length();i++) {
+			s.append("0");
+		}
+		
+		
+	}
+}
+

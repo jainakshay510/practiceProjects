@@ -1,0 +1,76 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
+public class CountFrequency {
+	
+	public static void main(String[] args) {
+		
+		String str="akshay";
+		countFrequency(str);
+		
+		List<Integer> list=new ArrayList<>();
+		list.add(1);
+		list.add(4);
+		list.add(3);
+		list.add(2);
+		list.add(5);
+		list.add(1);
+		list.add(0);
+		list.add(2);
+		
+		System.out.println(pairsWithSumEqualToGivenSum(list, 10));
+		
+		System.out.println("a".substring(1));
+	}
+	
+	
+	public static void countFrequency(String s) {
+		
+		char[] ch=s.toCharArray();
+		
+		int[] freq=new int[26];
+		
+		for(int i=0;i<s.length();i++) {
+			freq[s.charAt(i)-'a']+=1;
+			
+			
+		}
+		for(int f:freq) {
+			System.out.print(f+" ");
+			
+		}
+		
+		System.out.println();
+	}
+	
+	
+	public static boolean pairsWithSumEqualToGivenSum(List<Integer> a,int sum) {
+		
+		Collections.sort(a);
+		
+		int i=0;
+		int j=a.size()-1;
+		while(i<a.size() && j>0) {
+			int tempSum=a.get(i)+a.get(j);
+			
+			if(tempSum==sum) {
+				
+				System.out.println(i+" "+a.get(i)+" , "+j+" "+a.get(j)+" "+tempSum);
+				return true;
+			}
+			else if(tempSum>sum) {
+				j--;
+			}
+			else {
+				i++;
+			}
+		}
+		
+		System.out.println("nahi chala");
+		return false;
+		
+	}
+
+}

@@ -1,0 +1,41 @@
+
+import java.lang.*;
+import java.util.*;
+
+
+interface Sample{
+	void print(int a,int b);
+}
+
+interface B{
+	void print(String a,String b);
+}
+
+class C implements Sample,B{
+
+	@Override
+	public void print(String a, String b) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void print(int a, int b) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+public class OopsConcept {
+	
+	public static void main(String[] args) {
+		
+		C c=new C();
+		c.print(2, 3);
+		
+		
+	}
+
+}
+
+

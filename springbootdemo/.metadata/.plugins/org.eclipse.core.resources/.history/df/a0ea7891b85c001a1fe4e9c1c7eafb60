@@ -1,0 +1,52 @@
+package com.tutorial.studentdemo.security;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.crypto.password.NoOpPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+
+@EnableWebSecurity
+public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
+
+	@Override
+	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+		
+		//In memory auth we are using for tutorial purpose
+		
+		auth.inMemoryAuthentication()
+			.withUser("akshay")
+			.password("akshay")
+			.roles("USER")
+			.and()
+			.withUser("antra")
+			.password("antra")
+			.roles("ADMIN");
+	}
+	
+	
+	
+	@Override
+	protected void configure(HttpSecurity http) throws Exception {
+		
+		http.authorizeRequests()
+			.antMatchers("/studentservice/createorupdate").hasRole("ADMIN")
+			.antMatchers("/studentservice/{id}")
+			.hasAnyRole("USER")
+			//.antMatchers("/").permitAll()
+			.and()
+			.formLogin();
+	}
+
+
+
+	@Bean 
+	public PasswordEncoder passwordEncoder() {
+	//this encoder is used just for tutorial purpose
+		//In production it some other encoder should be used
+		return NoOpPasswordEncoder.getInstance();
+	}
+
+}

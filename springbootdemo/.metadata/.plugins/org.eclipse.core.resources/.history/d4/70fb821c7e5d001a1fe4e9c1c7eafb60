@@ -1,0 +1,5 @@
+package com.tutorial.springsecurityjpa.entity;
+
+public class User {
+
+}

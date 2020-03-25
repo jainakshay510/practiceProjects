@@ -1,0 +1,24 @@
+import java.util.Arrays;
+import java.util.List;
+
+public class MaximumSubArraySum {
+
+	
+	public static void main(String[] args) {
+		
+		
+		List<Integer> list=Arrays.asList(new Integer[] {1,5,3,8,-2,10,-3,9});
+		int sum=0;
+		int temp=0;
+		for(int i=0;i<list.size();i++) {
+			for(int j=i;j<list.size();j++) {
+				if(sum<temp) {
+					break;
+				}
+				sum+=list.get(0)+list.get(j);
+			}
+		}
+		
+		
+	}
+}

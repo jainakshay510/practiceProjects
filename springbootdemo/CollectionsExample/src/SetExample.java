@@ -1,0 +1,66 @@
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Optional;
+import java.util.Set;
+
+public class SetExample {
+	
+	public static void main(String[] args) {
+		
+		Set<String> set1=new HashSet<>();
+		
+		int sum=0;
+		set1.add("a");
+		set1.add("b");
+		set1.add("c");
+		set1.add("d");
+		
+		Optional<String> s=set1.stream().reduce((i,j)->i+j);
+		
+		
+		System.out.println(s.get());
+		
+		
+	}
+
+
+}
+
+interface A{
+	
+	default int add(int a,int b) {
+		return a+b;
+	}
+	
+	 
+	
+	
+}
+
+interface B{
+	default int add(int a,int b) {
+		return a+b;
+	}
+	
+	public double min(int a,int b);
+}
+
+class C implements B,A{
+
+	@Override
+	public int add(int a, int b) {
+		// TODO Auto-generated method stub
+		
+		return B.super.add(a, b);
+	}
+
+	@Override
+	public double min(int a, int b) {
+		return 0;
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+	
+}

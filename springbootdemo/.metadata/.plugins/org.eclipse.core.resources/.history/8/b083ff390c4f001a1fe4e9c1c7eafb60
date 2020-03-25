@@ -1,0 +1,37 @@
+package com.tutorial.studentdemo.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Data
+@Entity
+@Table(name="STUDENT")
+@NamedQueries(value= {@NamedQuery(name="StudentEntity.findStandard",query="Select standard from StudentEntity where id=:id"),
+    @NamedQuery(name = "StudentEntity.findAll", query = "SELECT s FROM StudentEntity s")
+})
+public class StudentEntity {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private Long id;
+	
+	@Column(name="name")
+	private String name;
+
+	@Column(name="age")
+	private int age;
+	
+	@Column(name="standard")
+	private String standard;
+
+	@Column(name="email",nullable=false,length=200)
+	private String email;
+}

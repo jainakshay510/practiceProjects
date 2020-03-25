@@ -1,0 +1,5 @@
+package com.tutorial.springsecurityjpa.security.config;
+
+public class MyUserDetailsService {
+
+}

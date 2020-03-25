@@ -1,0 +1,43 @@
+package com.tutorial.studentdemo.batch.processor;
+
+
+
+import java.util.List;
+
+import org.springframework.batch.item.ItemWriter;
+import org.springframework.batch.item.file.FlatFileItemWriter;
+import org.springframework.batch.item.file.transform.BeanWrapperFieldExtractor;
+import org.springframework.batch.item.file.transform.DelimitedLineAggregator;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.stereotype.Component;
+
+import com.tutorial.studentdemo.entity.StudentEntity;
+
+@Component
+public class CSVWriter implements ItemWriter<StudentEntity>{
+
+	@Override
+	public void write(List<? extends StudentEntity> items) throws Exception {
+		FlatFileItemWriter<StudentEntity> csvWriter=new FlatFileItemWriter<>();
+		
+		csvWriter.setResource(new ClassPathResource("targetStudent.csv"));
+		csvWriter.setAppendAllowed(true);
+		
+		DelimitedLineAggregator<StudentEntity> lineAggregator=new DelimitedLineAggregator<>();
+		
+		lineAggregator.setDelimiter(":");
+		
+		BeanWrapperFieldExtractor<StudentEntity> beanFieldExtractor=new BeanWrapperFieldExtractor<>();
+		beanFieldExtractor.setNames(new String[] {"id","age","email","name","standard"});
+		lineAggregator.setFieldExtractor(beanFieldExtractor);
+		
+		csvWriter.setLineAggregator(lineAggregator);
+		
+		
+	}
+	
+	private 
+	
+	
+
+}

@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1576218640736_0" label="Java Main Sources" name="main">
+<item elementID="=studentdemo/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=studentdemo/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-admin-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-admin-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-applicanttype-api/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-applicanttype-api/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-applicanttype-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-applicanttype-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-auditmanager-api/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-auditmanager-api/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-auditmanager-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-auditmanager-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-auth-adapter/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-auth-adapter/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-auth-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-auth-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-cbeffutil-api/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-cbeffutil-api/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-config-server/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-config-server/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-core/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-crypto-jce/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-crypto-jce/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-cryptomanager-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-cryptomanager-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-dataaccess-hibernate/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-dataaccess-hibernate/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-datamapper-orika/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-datamapper-orika/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-datavalidator/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-datavalidator/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-emailnotification-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-emailnotification-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-fsadapter-ceph/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-fsadapter-ceph/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-fsadapter-hdfs/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-fsadapter-hdfs/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-machineid/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-machineid/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-mispid/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-mispid/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-partnerid/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-prid/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-prid/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-regcenterid/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-regcenterid/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-rid/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-rid/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-tokenid/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-tokenid/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-vid/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-vid/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idrepo-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idrepo-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-mispid/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-mispid/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-prid/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-prid/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-rid/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-rid/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-uin/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-uin/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-vid/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-vid/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-jsonvalidator/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-jsonvalidator/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-keygenerator-bouncycastle/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-keygenerator-bouncycastle/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-keymanager-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-keymanager-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-keymanager-softhsm/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-keymanager-softhsm/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-licensekeygenerator-misp/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-licensekeygenerator-misp/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-licensekeymanager-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-licensekeymanager-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-logger-logback/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-masterdata-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-masterdata-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-otpmanager-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-otpmanager-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-otpnotification-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-otpnotification-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-pdfgenerator-itext/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-pdfgenerator-itext/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-pinvalidator/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-qrcodegenerator-zxing/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-qrcodegenerator-zxing/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-ridgenerator-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-ridgenerator-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-smsnotification-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-smsnotification-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-syncdata-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-syncdata-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-templatemanager-velocity/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-templatemanager-velocity/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-tokenidgenerator-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-tokenidgenerator-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-transliteration-icu4j/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-transliteration-icu4j/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-uingenerator-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-uingenerator-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-virusscanner-clamav/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-virusscanner-clamav/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-batchjob/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-batchjob/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-batchjob-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-batchjob-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-booking-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-booking-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-core/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-core/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-datasync-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-datasync-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-demographic-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-demographic-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-document-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-document-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-generateqrcode-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-generateqrcode-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-login-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-login-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-notification-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-notification-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-translitration-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-translitration-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-client/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-client/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-services/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-services/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-libs/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-libs/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-bio-dedupe-service-impl/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-bio-dedupe-service-impl/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-common-camel-bridge/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-common-camel-bridge/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-core/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-info-storage-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-info-storage-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-message-sender-impl/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-message-sender-impl/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-manager/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-manager/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-receiver-stage/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-receiver-stage/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-print-service-impl/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-print-service-impl/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-registration-status-service-impl/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-registration-status-service-impl/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-rest-client/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-rest-client/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=authentication-core/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=authentication-core/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-bio-dedupe-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-bio-dedupe-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-bio-dedupe-stage/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-bio-dedupe-stage/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-connector-stage/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-connector-stage/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-demo-dedupe-stage/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-demo-dedupe-stage/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-external-integration-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-external-integration-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-external-stage/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-external-stage/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-manual-verification-stage/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-manual-verification-stage/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-message-sender-stage/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-message-sender-stage/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-osi-validator-stage/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-osi-validator-stage/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-generator-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-generator-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-uploader-stage/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-uploader-stage/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-validator-stage/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-validator-stage/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-print-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-print-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-printing-stage/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-printing-stage/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-registration-status-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-registration-status-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-reprocessor-stage/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-reprocessor-stage/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-retry-stage/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-retry-stage/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-uin-generator-stage/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-uin-generator-stage/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-virus-scanner-stage/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-virus-scanner-stage/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=authentication-demo/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=authentication-demo/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=authentication-service/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=authentication-service/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-abis/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-abis/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1576218640757_1" label="Java Test Sources" name="test">
+<item elementID="=studentdemo/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-admin-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-admin-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-applicanttype-api/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-applicanttype-api/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-applicanttype-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-applicanttype-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-auditmanager-api/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-auditmanager-api/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-auditmanager-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-auditmanager-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-auth-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-auth-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-cbeffutil-api/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-cbeffutil-api/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-core/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-core/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-crypto-jce/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-crypto-jce/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-cryptomanager-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-cryptomanager-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-dataaccess-hibernate/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-dataaccess-hibernate/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-datamapper-orika/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-datavalidator/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-datavalidator/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-emailnotification-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-emailnotification-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-fsadapter-ceph/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-fsadapter-ceph/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-fsadapter-hdfs/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-fsadapter-hdfs/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-machineid/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-machineid/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-mispid/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-mispid/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-partnerid/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-partnerid/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-prid/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-prid/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-regcenterid/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-regcenterid/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-rid/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-rid/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-tokenid/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-tokenid/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-vid/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idgenerator-vid/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idrepo-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idrepo-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-mispid/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-mispid/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-prid/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-prid/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-rid/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-rid/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-uin/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-uin/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-vid/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-idvalidator-vid/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-jsonvalidator/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-jsonvalidator/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-keygenerator-bouncycastle/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-keygenerator-bouncycastle/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-keymanager-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-keymanager-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-keymanager-softhsm/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-keymanager-softhsm/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-licensekeygenerator-misp/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-licensekeygenerator-misp/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-licensekeymanager-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-licensekeymanager-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-logger-logback/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-logger-logback/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-masterdata-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-masterdata-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-otpmanager-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-otpmanager-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-otpnotification-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-otpnotification-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-pdfgenerator-itext/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-pdfgenerator-itext/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-pinvalidator/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-pinvalidator/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-qrcodegenerator-zxing/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-ridgenerator-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-ridgenerator-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-smsnotification-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-smsnotification-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-syncdata-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-syncdata-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-templatemanager-velocity/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-templatemanager-velocity/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-tokenidgenerator-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-tokenidgenerator-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-transliteration-icu4j/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-transliteration-icu4j/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-uingenerator-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-uingenerator-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-virusscanner-clamav/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=kernel-virusscanner-clamav/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-batchjob-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-batchjob-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-booking-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-booking-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-core/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-core/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-datasync-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-datasync-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-demographic-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-demographic-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-document-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-document-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-generateqrcode-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-generateqrcode-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-login-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-login-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-notification-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-notification-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-translitration-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pre-registration-translitration-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-services/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-services/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-libs/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-libs/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-bio-dedupe-service-impl/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-common-camel-bridge/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-core/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-core/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-info-storage-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-info-storage-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-message-sender-impl/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-message-sender-impl/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-manager/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-manager/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-receiver-stage/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-receiver-stage/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-print-service-impl/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-print-service-impl/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-registration-status-service-impl/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-rest-client/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=authentication-core/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-bio-dedupe-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-bio-dedupe-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-bio-dedupe-stage/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-connector-stage/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-demo-dedupe-stage/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-external-integration-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-external-stage/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-manual-verification-stage/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-manual-verification-stage/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-message-sender-stage/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-osi-validator-stage/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-osi-validator-stage/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-uploader-stage/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-uploader-stage/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-validator-stage/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-packet-validator-stage/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-print-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-print-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-printing-stage/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-registration-status-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-registration-status-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-reprocessor-stage/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-retry-stage/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-uin-generator-stage/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-uin-generator-stage/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-virus-scanner-stage/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=registration-processor-virus-scanner-stage/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=authentication-demo/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=authentication-demo/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=authentication-service/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=authentication-service/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1576867221655_3" label="mosip-parent" name="mosip-parent">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-registration-status-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-cbeffutil-api" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-parent" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-keygenerator-bouncycastle" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-idgenerator-mispid" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-otpnotification-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-syncdata-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-idvalidator-uin" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-packet-manager" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/authentication-parent" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-manual-verification-stage" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-logger-logback" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-auditmanager-api" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-osi-validator-stage" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-applicanttype-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-datamapper-orika" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-idgenerator-vid" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-transliteration-icu4j" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-bio-dedupe-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-idrepo-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-print-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-packet-receiver-stage" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-cryptomanager-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-auth-adapter" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pre-registration-booking-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-uingenerator-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-fsadapter-ceph" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-virusscanner-clamav" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-jsonvalidator" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pre-registration-datasync-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-masterdata-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/init" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-print-service-impl" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/post-processor" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-idvalidator-rid" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-crypto-jce" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-fsadapter-hdfs" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-datavalidator" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-keymanager-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pre-registration-batchjob" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-external-stage" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-idgenerator-partnerid" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-packet-generator-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-idgenerator-prid" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pre-registration-demographic-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pre-registration-parent" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-auth-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/mosip-parent" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-reprocessor-stage" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-services" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-idvalidator-prid" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/authentication-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-bio-dedupe-stage" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-otpmanager-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-idvalidator-mispid" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-idvalidator-vid" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-licensekeymanager-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-admin-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-demo-dedupe-stage" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/authentication-demo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-config-server" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-rest-client" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pre-registration-generateqrcode-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-message-sender-stage" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-dataaccess-hibernate" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-tokenidgenerator-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-idgenerator-tokenid" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-templatemanager-velocity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-connector-stage" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/core-processor" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-packet-validator-stage" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-smsnotification-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-uin-generator-stage" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-keymanager-softhsm" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-abis" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-printing-stage" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/authentication-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-info-storage-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-licensekeygenerator-misp" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-qrcodegenerator-zxing" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pre-processor" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-external-integration-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-registration-status-service-impl" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-bio-dedupe-service-impl" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pre-registration-batchjob-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-parent" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-pdfgenerator-itext" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-libs" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-pinvalidator" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-applicanttype-api" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pre-registration-login-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-common-camel-bridge" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-ridgenerator-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-emailnotification-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-idgenerator-rid" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pre-registration-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-auditmanager-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pre-registration-document-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-idgenerator-regcenterid" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-message-sender-impl" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kernel-idgenerator-machineid" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-packet-uploader-stage" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-virus-scanner-stage" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pre-registration-translitration-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pre-registration-notification-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-client" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-processor-retry-stage" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1576218654804_2" label="Window Working Set" name="Aggregate for window 1576218654803"/>
+</workingSetManager>

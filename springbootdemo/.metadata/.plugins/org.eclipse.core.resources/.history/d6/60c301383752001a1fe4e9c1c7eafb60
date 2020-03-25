@@ -1,0 +1,15 @@
+package com.tutorial.studentdemo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class B {
+
+	@Autowired
+	private C c;
+	
+	public void f2() {
+		c.f1();
+	}
+}

@@ -1,0 +1,5 @@
+package com.tutorial.studentdemo.config;
+
+public class BatchConfig {
+
+}

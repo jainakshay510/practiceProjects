@@ -1,0 +1,19 @@
+
+import java.lang.*;
+import java.util.*;
+
+
+
+public class OopsConcept {
+	
+	public static void main(String[] args) {
+		
+		C c=new C();
+		c.print(2, 3);
+		c.print(2,3);
+		
+	}
+
+}
+
+

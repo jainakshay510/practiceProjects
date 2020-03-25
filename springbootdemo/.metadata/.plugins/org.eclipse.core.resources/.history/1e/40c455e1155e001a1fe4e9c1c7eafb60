@@ -1,0 +1,45 @@
+
+public class TreeTraversal {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+}
+
+class BinaryTree{
+	
+	Node root;
+	public BinaryTree() {
+		root=null;
+	}
+	
+	void printPostOrder(Node node) {
+		
+		if(node==null)
+			return;
+		
+		printPostOrder(node.left);
+		
+		printPostOrder(node.right);
+		
+		System.out.println(node.key+"->");
+		
+	}
+}
+
+class Node{
+	  Node left;
+	  Node right;
+	  int key;
+	public Node(int key) {
+		
+		this.left = null;
+		this.right = null;
+		this.key = key;
+	}
+	  
+	
+	  
+}

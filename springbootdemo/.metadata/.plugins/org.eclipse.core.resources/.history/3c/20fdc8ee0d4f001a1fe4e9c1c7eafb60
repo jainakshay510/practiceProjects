@@ -1,0 +1,19 @@
+package com.tutorial.studentdemo.batch.processor;
+
+import org.springframework.batch.item.ItemProcessor;
+import org.springframework.stereotype.Component;
+
+import com.tutorial.studentdemo.entity.StudentEntity;
+
+@Component
+public class Processor implements ItemProcessor<StudentEntity, StudentEntity> {
+
+	@Override
+	public StudentEntity process(StudentEntity student) throws Exception {
+		
+		return student;
+	}
+	
+	
+
+}

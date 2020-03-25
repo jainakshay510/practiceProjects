@@ -1,0 +1,14 @@
+
+public class LinkedList {
+
+}
+
+
+class Node{
+	
+	private int data;
+	//private Node previous;
+	private Node next;
+	
+	
+}

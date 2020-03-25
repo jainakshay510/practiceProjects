@@ -1,0 +1,5 @@
+package com.tutorial.springsecurityjwt.controller;
+
+public class HomeResource {
+
+}

@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Stack;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -27,6 +28,11 @@ public class TreeTraversal {
 		
 		tree.BreadthFirstTraversal();
 		
+		System.out.println("Value found "+tree.findNodeValue(3));
+		
+		System.out.println();
+		
+		tree.zigzagTraversal();
 		
 		
 		
@@ -34,6 +40,10 @@ public class TreeTraversal {
 }
 
 
+
+//Post Order LRN
+//PreOrder NLR
+//InOrder LNR
 
 class BinaryTree{
 	
@@ -120,11 +130,77 @@ class BinaryTree{
 		}
 	}
 	
+	private int findNodeValue(Node node,int value) {
+		
+		if(node==null)
+			return 0;
+		
+		if(node.key==value)
+			return value;
+		int result=findNodeValue(node.left,value);
+		
+		if(result==value)
+			return value;
+		
+		result=findNodeValue(node.right,value);
+		
+		if(result==value)
+			return value;
+		
+		return 0;
+	}
+	
+	private void zigzagTraversal(Node node) {
+		
+		if(node==null)
+			return;
+		
+		Stack<Node> currrentLevel=new Stack<>();
+		Stack<Node> nextLevel=new Stack<>();
+		
+		currrentLevel.push(node);
+		
+	boolean leftToRight=true;
+	
+	while(!currrentLevel.isEmpty()) {
+		
+		Node n=currrentLevel.pop();
+		
+		System.out.println(n.key);
+		
+		if(leftToRight) {
+			if(n.left!=null)
+				nextLevel.push(n.left);
+			if(n.right!=null)
+			nextLevel.push(n.right);
+		}
+		else {
+			if(n.right!=null)
+				nextLevel.push(n.right);
+			if(n.left!=null)
+				nextLevel.push(n.left);
+		}
+		
+		if(currrentLevel.isEmpty()) {
+			leftToRight=!leftToRight;
+			Stack<Node> tempStack=currrentLevel;
+			currrentLevel=nextLevel;
+			nextLevel=tempStack;
+		}
+	}
+	
+		
+	}
+	
 	void printPostOrder()  {     printPostOrder(root);  } 
     void printInOrder()    {     printInOrder(root);   } 
     void printPreOrder()   {     printPreOrder(root);  } 
     
     int heightOfTree() {	return 	heightOfTree(root);}
+    
+    int findNodeValue(int value) {return findNodeValue(root, value);};
+    
+    void zigzagTraversal() {zigzagTraversal(root);}
 }
 
 class Node{

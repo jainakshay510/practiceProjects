@@ -1,10 +1,11 @@
 
+
 public class QuickSort {
 	
 	public static void main(String[] args) {
 		
 		
-		int arr[] = {10, 7, 8, 9, 1, 5}; 
+		int arr[] = {10, 7, 8,5, 9, 1, 5}; 
         int n = arr.length; 
   
         
@@ -20,42 +21,44 @@ public class QuickSort {
 	}
 	
 	
-	public static void  quickSort(int[] a,int low,int high) {
+	public static void  quickSort(int[] a,int start,int end) {
 		
 		
 		
-		if(low<high) {
+		if(start<end) {
 			
-			int pivot=partition(a, low, high);
+			int pivot=partition(a, start,end);
 			
-			quickSort(a,low,pivot-1);
+			quickSort(a,start,pivot-1);
 			
-			quickSort(a, pivot+1,high);
+			quickSort(a, pivot+1,end);
 			
 			
 		}
 	}
 	
-	public static int partition(int[] a,int low,int high) {
+	public static int partition(int[] a,int start,int end) {
 		
-		int i=low-1;
-		int pivot=a[high];
-		for(int j=low;j<a.length;j++) {
+		int pIndex=start;
+		int pivot=a[end];
+		for(int j=start;j<a.length-1;j++) {
 			
-			if(a[j]<pivot) {
-				i++;
-				int temp=a[i];
-				a[i]=a[j];
+			if(a[j]<=pivot) {
+				
+				int temp=a[pIndex];
+				a[pIndex]=a[j];
 				a[j]=temp;
+				
+				pIndex++;
 			}
 			
 		}
 		
-		int temp1=a[i+1];
-		a[i+1]=a[high];
-		a[high]=temp1;
+		int temp1=a[pIndex];
+		a[pIndex]=a[end];
+		a[end]=temp1;
 		
-		return i+1;
+		return pIndex;
 		
 	
 	}

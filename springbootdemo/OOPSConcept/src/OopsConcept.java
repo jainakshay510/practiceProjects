@@ -98,8 +98,6 @@ public static void getAllPerson(Person p,List<String> list1){
 	if(p.getP()==null) {
 		return;
 	}
-	String s=p.getName();
-	int sizeOfList=p.getP().size();
 	
 	for(Person p1:p.getP()) {
 		getAllPerson(p1, list1);
